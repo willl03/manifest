@@ -3,6 +3,18 @@
 
   <remote  name="aosp"
            fetch=".." />
+
+  <remote name = "gh"
+          fetch = "https://github.com/" />
+  
+  <remote name = "uber"
+          revision = "master"
+          fetch = "https://github.com/UBERROMS" />
+
+  <remote name = "w03"
+          revision = "w03-7.1"
+          fetch = "https://github.com/willl03" />
+
   <default revision="refs/tags/android-7.1.0_r4"
            remote="aosp"
            sync-j="4" />
